@@ -1,5 +1,7 @@
 import csv
 
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 from conduit_app_methods import *
 
@@ -8,7 +10,9 @@ class TestConduitApp(object):
 
     # Böngésző indítása
     def setup(self):
-        self.browser = webdriver.Chrome("C://Windows//chromedriver.exe")
+        browser_options = Options()
+        browser_options.headless = True
+        self.browser = webdriver.Chrome(ChromeDriverManager().install(), options=browser_options)
         self.browser.maximize_window()
         self.browser.get("http://localhost:1667/")
 

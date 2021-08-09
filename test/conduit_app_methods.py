@@ -63,4 +63,4 @@ def open_user_articles(browser):
     navbar_username.click()
     time.sleep(0.5)
     browser.refresh()
-    time.sleep(1) # 2
+    time.sleep(1)
