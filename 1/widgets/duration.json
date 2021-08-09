@@ -1,0 +1,111 @@
+[ {
+  "uid" : "d5b994dda615aac8",
+  "name" : "test_accept_cookies",
+  "time" : {
+    "start" : 1628529829023,
+    "stop" : 1628529839366,
+    "duration" : 10343
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c36386dcfb5c6327",
+  "name" : "test_navigate_in_pages",
+  "time" : {
+    "start" : 1628529896477,
+    "stop" : 1628529906703,
+    "duration" : 10226
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "401612295be625e3",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1628529841214,
+    "stop" : 1628529851456,
+    "duration" : 10242
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "30a2f63740a37908",
+  "name" : "test_delete_article",
+  "time" : {
+    "start" : 1628529930129,
+    "stop" : 1628529940360,
+    "duration" : 10231
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9ab42011b88afa22",
+  "name" : "test_edit_article",
+  "time" : {
+    "start" : 1628529873700,
+    "stop" : 1628529883928,
+    "duration" : 10228
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6732ba15baf3d380",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1628529851960,
+    "stop" : 1628529862189,
+    "duration" : 10229
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bcd4ad71b012322c",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1628529942013,
+    "stop" : 1628529952230,
+    "duration" : 10217
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5e0ecc0594a93bb6",
+  "name" : "test_create_new_article",
+  "time" : {
+    "start" : 1628529862826,
+    "stop" : 1628529873064,
+    "duration" : 10238
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ad0db2a025ad4c4f",
+  "name" : "test_export_articles",
+  "time" : {
+    "start" : 1628529919251,
+    "stop" : 1628529929479,
+    "duration" : 10228
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "76cfe380eee40349",
+  "name" : "test_list_user_articles",
+  "time" : {
+    "start" : 1628529907349,
+    "stop" : 1628529917575,
+    "duration" : 10226
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a0b8cd34ecd6f5fd",
+  "name" : "test_create_new_article_from_csv",
+  "time" : {
+    "start" : 1628529885595,
+    "stop" : 1628529895818,
+    "duration" : 10223
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
