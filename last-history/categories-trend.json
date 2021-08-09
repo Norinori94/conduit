@@ -2,7 +2,5 @@
   "buildOrder" : 1,
   "reportUrl" : "https://Norinori94.github.io/conduit/1/",
   "reportName" : "Allure Report with history",
-  "data" : {
-    "Test defects" : 11
-  }
+  "data" : { }
 } ]
