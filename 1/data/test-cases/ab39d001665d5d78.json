@@ -1,12 +1,12 @@
 {
-  "uid" : "48b37b844eac9ab8",
-  "name" : "test_registration",
-  "fullName" : "test.test_conduit_app.TestConduitApp#test_registration",
-  "historyId" : "2ba64b6fcb429849d46f78d1841862a3",
+  "uid" : "ab39d001665d5d78",
+  "name" : "test_navigate_in_pages",
+  "fullName" : "test.test_conduit_app.TestConduitApp#test_navigate_in_pages",
+  "historyId" : "ad5b34139c320dc61c973e69f67bc369",
   "time" : {
-    "start" : 1628532762593,
-    "stop" : 1628532766250,
-    "duration" : 3657
+    "start" : 1628795145223,
+    "stop" : 1628795146655,
+    "duration" : 1432
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,15 +16,15 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "377bf507b72daa64",
+      "uid" : "8cce87ed9fca08d3",
       "name" : "log",
-      "source" : "377bf507b72daa64.txt",
+      "source" : "8cce87ed9fca08d3.txt",
       "type" : "text/plain",
       "size" : 344
     }, {
-      "uid" : "1e729541349c4c3d",
+      "uid" : "617e44a307188b93",
       "name" : "stderr",
-      "source" : "1e729541349c4c3d.txt",
+      "source" : "617e44a307188b93.txt",
       "type" : "text/plain",
       "size" : 215
     } ],
@@ -46,10 +46,10 @@
     "value" : "TestConduitApp"
   }, {
     "name" : "host",
-    "value" : "fv-az77-771"
+    "value" : "fv-az39-798"
   }, {
     "name" : "thread",
-    "value" : "3726-MainThread"
+    "value" : "3686-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -73,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "48b37b844eac9ab8.json",
+  "source" : "ab39d001665d5d78.json",
   "parameterValues" : [ ]
 }

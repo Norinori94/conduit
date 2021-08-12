@@ -1,12 +1,12 @@
 {
-  "uid" : "83cb514a4038e6bb",
-  "name" : "test_accept_cookies",
-  "fullName" : "test.test_conduit_app.TestConduitApp#test_accept_cookies",
-  "historyId" : "2b3cc6b9e3a544e919ecfa3fe01a0f4f",
+  "uid" : "7f8a8588abf4aadd",
+  "name" : "test_edit_article",
+  "fullName" : "test.test_conduit_app.TestConduitApp#test_edit_article",
+  "historyId" : "35d4ee69f4f20d65951d0d618f1344d9",
   "time" : {
-    "start" : 1628532761766,
-    "stop" : 1628532761873,
-    "duration" : 107
+    "start" : 1628795113959,
+    "stop" : 1628795120733,
+    "duration" : 6774
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,17 +16,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ebb7b2e17efa9a70",
+      "uid" : "a7021bb06d8d7c42",
       "name" : "log",
-      "source" : "ebb7b2e17efa9a70.txt",
+      "source" : "a7021bb06d8d7c42.txt",
       "type" : "text/plain",
-      "size" : 642
+      "size" : 344
     }, {
-      "uid" : "ea9bf486835daf48",
+      "uid" : "b861aa0f2e3e0873",
       "name" : "stderr",
-      "source" : "ea9bf486835daf48.txt",
+      "source" : "b861aa0f2e3e0873.txt",
       "type" : "text/plain",
-      "size" : 435
+      "size" : 215
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -46,10 +46,10 @@
     "value" : "TestConduitApp"
   }, {
     "name" : "host",
-    "value" : "fv-az77-771"
+    "value" : "fv-az39-798"
   }, {
     "name" : "thread",
-    "value" : "3726-MainThread"
+    "value" : "3686-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -73,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "83cb514a4038e6bb.json",
+  "source" : "7f8a8588abf4aadd.json",
   "parameterValues" : [ ]
 }
