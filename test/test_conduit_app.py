@@ -24,7 +24,6 @@ class TestConduitApp(object):
     def teardown(self):
         self.browser.quit()
 
-    # Adatkezelési nyilatkozat használata teszt
     def test_accept_cookies(self):
         div_cookie = wait_for_element(self.browser, By.XPATH, '//div[@class="cookie__bar__content"]/div')
         assert div_cookie.text == "We use cookies to ensure you get the best experience on our website. Learn More..."
@@ -42,7 +41,6 @@ class TestConduitApp(object):
 
         assert "vue-cookie-accept-decline-cookie-policy-panel" in cookie
 
-    # Regisztráció teszt
     def test_registration(self):
         navbar_sign_up = wait_for_element(self.browser, By.XPATH, '//a[@href="#/register"]')
         navbar_sign_up.click()
@@ -60,7 +58,7 @@ class TestConduitApp(object):
 
         div_title = wait_for_element(self.browser, By.XPATH, '//div[@class="swal-title"]')
         div_text = wait_for_element(self.browser, By.XPATH, '//div[@class="swal-text"]')
-        time.sleep(0.5)
+        time.sleep(2)
         button_registration_ok = wait_for_element(self.browser, By.XPATH, '//button[@class="swal-button '
                                                                           'swal-button--confirm"]')
 
@@ -68,7 +66,6 @@ class TestConduitApp(object):
         assert div_text.text == "Your registration was successful!"
         button_registration_ok.click()
 
-    # Bejelentkezés teszt
     def test_login(self):
         navbar_sign_in = wait_for_element(self.browser, By.XPATH, '//a[@href="#/login"]')
         navbar_sign_in.click()
@@ -89,7 +86,6 @@ class TestConduitApp(object):
 
         assert self.username in navbar_elements_text_list
 
-    # Új adat bevitel teszt
     def test_create_new_article(self):
         login(self.browser, self.email, self.password)
         navbar_new_article = wait_for_element(self.browser, By.XPATH, '//a[@href="#/editor"]')
@@ -109,7 +105,6 @@ class TestConduitApp(object):
         assert new_article_content.text == article_content
         assert author_of_article.text == self.username
 
-    # Meglévő adat módosítás teszt
     def test_edit_article(self):
         login(self.browser, self.email, self.password)
 
@@ -133,7 +128,6 @@ class TestConduitApp(object):
         assert new_article_title.text == article_title
         assert new_article_content.text == article_content
 
-    # Ismételt és sorozatos adatbevitel adatforrásból
     def test_create_new_article_from_csv(self):
         login(self.browser, self.email, self.password)
 
@@ -159,7 +153,6 @@ class TestConduitApp(object):
                 assert new_article_content.text == article_content
                 assert author_of_article.text == self.username
 
-    # Több oldalas lista bejárása teszt
     def test_navigate_in_pages(self):
         login(self.browser, self.email, self.password)
         navbar_home = wait_for_element(self.browser, By.XPATH, '//a[@href="#/"]')
@@ -174,7 +167,6 @@ class TestConduitApp(object):
 
         assert number_of_page == len(pages)
 
-    # Adatok listázása
     def test_list_user_articles(self):
         login(self.browser, self.email, self.password)
         open_user_articles(self.browser)
@@ -199,7 +191,6 @@ class TestConduitApp(object):
         assert len(author_of_articles_list) == 1
         assert self.username in author_of_articles_list
 
-    # Adatok lementése felületről
     def test_export_articles(self):
         login(self.browser, self.email, self.password)
 
@@ -261,7 +252,6 @@ class TestConduitApp(object):
 
         assert number_of_articles_at_home_page == number_of_articles_in_csv
 
-    # Adat vagy adatok törlése
     def test_delete_article(self):
         login(self.browser, self.email, self.password)
         user_article_exist = True
@@ -273,7 +263,8 @@ class TestConduitApp(object):
             if first_article.text != "No articles are here... yet.":
                 article_list = wait_for_elements(self.browser, By.XPATH, '//a[@class="preview-link"]')
                 article_list[0].click()
-                button_delete_article = wait_for_element(self.browser, By.XPATH, '//span[contains(text(), "Delete")]/..')
+                button_delete_article = wait_for_element(self.browser, By.XPATH,
+                                                         '//span[contains(text(), "Delete")]/..')
                 button_delete_article.click()
             else:
                 user_article_exist = False
@@ -281,7 +272,6 @@ class TestConduitApp(object):
         first_article = wait_for_elements(self.browser, By.XPATH, '//div[@class="article-preview"]')[0]
         assert first_article.text == "No articles are here... yet."
 
-    # Kijelentkezés teszt
     def test_logout(self):
         login(self.browser, self.email, self.password)
         number_of_navbar_elements_before_log_out = len(navbar_elements(self.browser))
