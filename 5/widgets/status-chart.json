@@ -1,0 +1,111 @@
+[ {
+  "uid" : "3b887caea25b7ac4",
+  "name" : "test_edit_article",
+  "time" : {
+    "start" : 1629667866711,
+    "stop" : 1629667873983,
+    "duration" : 7272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf201d367332cf9d",
+  "name" : "test_create_new_article",
+  "time" : {
+    "start" : 1629667863091,
+    "stop" : 1629667865977,
+    "duration" : 2886
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32bc29e7d1dcf2bc",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1629667853753,
+    "stop" : 1629667859160,
+    "duration" : 5407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6175ff710cd87649",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1629667859865,
+    "stop" : 1629667861314,
+    "duration" : 1449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a736bc3df1b9e8f",
+  "name" : "test_create_new_article_from_csv",
+  "time" : {
+    "start" : 1629667875697,
+    "stop" : 1629667897697,
+    "duration" : 22000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c3832b3437dab41",
+  "name" : "test_navigate_in_pages",
+  "time" : {
+    "start" : 1629667899424,
+    "stop" : 1629667900984,
+    "duration" : 1560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4672dfb854aaa778",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1629667975417,
+    "stop" : 1629667976932,
+    "duration" : 1515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "caecb768261c588a",
+  "name" : "test_delete_article",
+  "time" : {
+    "start" : 1629667918784,
+    "stop" : 1629667973685,
+    "duration" : 54901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6507413c1fcd4feb",
+  "name" : "test_list_user_articles",
+  "time" : {
+    "start" : 1629667902723,
+    "stop" : 1629667908191,
+    "duration" : 5468
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9422e3cdf98a2eba",
+  "name" : "test_accept_cookies",
+  "time" : {
+    "start" : 1629667852863,
+    "stop" : 1629667853007,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c5f85efd262efab",
+  "name" : "test_export_articles",
+  "time" : {
+    "start" : 1629667909937,
+    "stop" : 1629667918061,
+    "duration" : 8124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
